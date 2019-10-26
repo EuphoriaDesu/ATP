@@ -1,0 +1,34 @@
+.car-park-subtitle {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  color: rgba(0,0,0,.7);
+}
+
+.cars-row {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.example-card {
+  max-width: 200px;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+@media(max-width: 576px) {
+  .cars-row {
+    margin-top: 0;
+    flex-direction: column;
+  }
+  .example-card {
+    max-width: 100%;
+  }
+}
